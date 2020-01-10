@@ -1,6 +1,6 @@
 Name:           libsmi
 Version:        0.4.8
-Release:        11%{?dist}
+Release:        13%{?dist}
 Summary:        A library to access SMI MIB information
 
 Group:          System Environment/Libraries
@@ -105,6 +105,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.4.8-13
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.4.8-12
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Tom Callaway <spot@fedoraproject.org> - 0.4.8-11
 - add IETF MIB license text to resolve legal issue
 
